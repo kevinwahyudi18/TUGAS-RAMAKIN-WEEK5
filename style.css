@@ -1,0 +1,38 @@
+.tab_box:hover{
+    background-color: #449c61;
+}
+.warnaBg{
+    background-color: #8a9d9d;
+}
+
+.hide-overflow{
+    position: relative;
+    overflow: hidden;
+}
+.content{
+    position: absolute;
+    transform: translateX(200%);
+}
+h6{
+    font-size: 1.2rem;
+}
+::placeholder{
+    font-size: 1rem;
+}
+
+input:invalid{
+    border: none;
+    outline: solid red;
+}
+
+input:valid{
+    outline: solid black;
+}
+#contentFormRegistrasi{
+    transform: translateX(0px);
+}
+#btn1{
+    background-color: #4cb25d;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
